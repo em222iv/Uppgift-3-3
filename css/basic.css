@@ -1,1 +1,102 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+#container {
+    width: 600px;
+    min-height: 750px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: #676754;
+ 
+    }
+    
+    
+#topbar {
+    
+    float: right;
+    color: #EBE8E4;
+  
+}
+#menu {
+    background-image: url('pics/coffey.jpg');
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    }
+#maincontent h1 {
+    color: #B2B2A9;
+}    
+#subcontent h1 {
+    font-style: italic;
+    font-size: 12pt;
+}
+#subcontent h2 {
+    font-style: "Times New Roman";
+    font-size: 10pt;
+}
+    
+.active { 
+    width:30px
+    padding: 5px;
+    background-color:#EBE8E4;
+
+}
+#menu a {
+    
+    width:30px
+    text-decoration:none;
+    color: #EBE8E4;
+    padding: 5px;
+    border-right:1px solid white;
+    background-color:#B2B2A9;
+    
+}
+#menu a:hover {
+    background: #70705C;
+}
+}
+.active { 
+
+    background-color:#EBE8E4;
+
+}
+#menu li {
+    margin-top: 171px;
+    float:left;
+    display: inline-block;
+ 
+
+
+}
+#menu ul {
+    list-style: none;
+}
+#content {
+    width: 600px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: #EBE8E4;
+    clear: both;
+    
+}
+#maincontent {
+    padding: 30px;
+    float: left;
+    width: 300px;
+    height: 150px;
+   
+    
+}
+#subcontent {
+    padding: 20px;
+    float: right;
+    width: 200px;
+    margin-top: 40px;
+}
+#maincontent img {
+    float: left;
+}
+#bottomcontent {
+    position: absolute;
+    bottom: 2px;    
+    padding: 200px;
+    font-family: italic ;
+    
+}
